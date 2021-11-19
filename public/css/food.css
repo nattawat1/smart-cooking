@@ -183,12 +183,13 @@
 
 .img_food {
     position: absolute;
-    width: 481px;
+    width: 450px;
     height: 650px;
-    left: 835px;
+    left: 855px;
     top: 1250px;
 
-    background-color:#000000;
+    /* photo 600 * 800 */
+    background: url("https://www.foodiecrush.com/wp-content/uploads/2015/03/Beef-Stroganoff-foodiecrush.com-16.jpg");
     border-radius: 30px;
 }
 
