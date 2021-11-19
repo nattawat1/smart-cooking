@@ -179,8 +179,8 @@
                   aria-haspopup="true"
                   aria-expanded="false"
                 >
-                  <span class="mr-2 d-none d-lg-inline text-gray-600 small"
-                    >Douglas McGee</span
+                  <span class="mr-2 d-none d-lg-inline text-gray-600 small account-details"
+                    >Man</span
                   >
                   <img
                     class="img-profile rounded-circle"
@@ -209,7 +209,7 @@
                     Activity Log
                   </a>
                   <div class="dropdown-divider"></div>
-                  <a
+                  <button
                     class="dropdown-item"
                     href="#"
                     data-toggle="modal"
@@ -219,7 +219,7 @@
                       class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"
                     ></i>
                     Logout
-                  </a>
+                  </button>
                 </div>
               </li>
             </ul>
@@ -294,7 +294,7 @@
             >
               Cancel
             </button>
-            <a class="btn btn-primary" href="login.html">Logout</a>
+            <button class="btn btn-primary" id="logout">Logout</button>
           </div>
         </div>
       </div>
@@ -316,5 +316,7 @@
     <!-- Page level custom scripts -->
     <script src="js/demo/chart-area-demo.js"></script>
     <script src="js/demo/chart-pie-demo.js"></script>
+    <script type="module" src="./js/index.js"></script>
+
   </body>
 </html>

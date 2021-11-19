@@ -1,5 +1,6 @@
 {
   "hosting": {
+    "site": "smart-cooking-9cd09",
     "public": "public",
     "ignore": [
       "firebase.json",
