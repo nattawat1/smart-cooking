@@ -1,0 +1,64 @@
+.heading {
+    margin: 10px;
+    font-family: Merriweather;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 82px;
+    color: #000000;
+    align-items: center;
+    text-align: center;
+
+}
+
+.title1 {
+    margin: 0 0 30px;
+    font-family: Benguiat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+
+    color: #000000;
+}
+
+.type_food {
+
+    font-family: Benguiat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 38px;
+    text-align: center;
+
+    color: #000000;
+}
+
+
+.category{
+    padding: 0 240px;
+}
+
+.category_menu {
+    padding: 0 110px 30px;
+}
+
+.menu {
+    font-family: Benguiat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+
+    color: #000000;
+}
+
+.card:hover {
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+    border-radius: 5px;
+    box-shadow: 5px 5px #FFA36C;
+    
+}
