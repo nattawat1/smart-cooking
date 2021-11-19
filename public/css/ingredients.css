@@ -1,0 +1,41 @@
+.heading {
+    margin: 10px;
+    font-family: Merriweather;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 82px;
+    color: #000000;
+    align-items: center;
+    text-align: center;
+
+}
+
+.title1 {
+    margin: 0 0 30px;
+    font-family: Benguiat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+
+    color: #000000;
+}
+
+.ingredients {
+    padding: 0 300px 20px;
+}
+
+.name_ingredients { 
+
+    font-family: Benguiat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+
+    color: #000000;
+}
+
+
