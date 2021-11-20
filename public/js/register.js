@@ -44,7 +44,7 @@ singupFrom.addEventListener("submit", (e) => {
     .then(() => {
       console.log("Document successfully written!");
       singupFrom.reset();
-    });
+    })
 });
 
 onAuthStateChanged(auth, (user) => {
@@ -52,5 +52,33 @@ onAuthStateChanged(auth, (user) => {
     setTimeout(function () {
       window.location = "index.html";
     }, 2000);
+    addingredients();
   }
 });
+
+async function addingredients() {
+  var user = auth.currentUser;
+  var uid = user.uid;
+  const docRef = await setDoc(doc(db, uid, "Ingredients"), {
+    Chicken: "0",
+    Pork: "0",
+    Beef: "0",
+    Vermicelli: "0",
+    Noodle: "0",
+    Pasta: "0",
+    Shrimp:"0",
+    Fish:"0",
+    Egg:"0",
+    Eggtofu:"0",
+    Tofu:"0",
+    Cheese:"0",
+    Crispyflour:"0",
+    Potato:"0",
+    Turkeyberry:"0",
+    Moringglory:"0",
+    Ivygourd:"0",
+    Kaffir:"0",
+    Spinach:"0",
+    Sauce:"0",
+  });
+}
