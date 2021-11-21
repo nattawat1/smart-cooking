@@ -39,7 +39,7 @@
     position: absolute;
     width: 439px;
     height: 106px;
-    left: 750px;
+    left: 790px;
     top: 350px;
 
     font-family: Merriweather;
@@ -56,7 +56,7 @@
     position: absolute;
     width: 439px;
     height: 106px;
-    left: 758px;
+    left:790px;
     top: 400px;
 
     font-family: Merriweather;
@@ -181,19 +181,16 @@
 
     color: #000000;
 }
-
 .img_food {
     position: absolute;
     width: 450px;
     height: 650px;
     left: 855px;
     top: 1250px;
-
     /* photo 600 * 800 */
-    background: url("https://www.foodiecrush.com/wp-content/uploads/2015/03/Beef-Stroganoff-foodiecrush.com-16.jpg");
+     background: url("https://www.foodiecrush.com/wp-content/uploads/2015/03/Beef-Stroganoff-foodiecrush.com-16.jpg");
     border-radius: 30px;
 }
-
 .line2 {   
     position: absolute;
     width: 213px;
