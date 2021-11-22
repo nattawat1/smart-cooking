@@ -549,7 +549,7 @@ async function Pork() {
   querypo.forEach((doc) => {
     console.log("Pork: ", doc.data().Pork);
     const html = `
-    <div class="col-xl-auto col-md-6 mb-4">
+    <div class="col-xl-auto col-md-6 mb-4 card-title">
     <div class="card border-left-primary shadow h-100 py-2">
       <div class="card-body">
         <a href="Dan-Dan-Pappardelle.html">
@@ -566,14 +566,14 @@ async function Pork() {
             mb-3
             "
             ></div>
-          <div class="h5 font-weight-bold text-gray-800">
+          <strong class="h5 font-weight-bold text-gray-800">
           Dan Dan Pappardelle
-          </div>
+          </strong>
         </a>
       </div>
     </div>
   </div>
-  <div class="col-xl-auto col-md-6 mb-4">
+  <div class="col-xl-auto col-md-6 mb-4 card-title">
   <div class="card border-left-primary shadow h-100 py-2">
     <div class="card-body">
       <a href="Clear-Soup.html">
@@ -590,14 +590,14 @@ async function Pork() {
           mb-3
           "
           ></div>
-        <div class="h5 font-weight-bold text-gray-800">
+        <strong class="h5 font-weight-bold text-gray-800">
         Clear Soup with Tofu and Pork
-        </div>
+        </strong>
       </a>
     </div>
   </div>
 </div>
-<div class="col-xl-auto col-md-6 mb-4">
+<div class="col-xl-auto col-md-6 mb-4 card-title">
 <div class="card border-left-primary shadow h-100 py-2">
   <div class="card-body">
     <a href="PorkStir.html">
@@ -621,7 +621,7 @@ async function Pork() {
   </div>
 </div>
 </div>
-<div class="col-xl-auto col-md-6 mb-4">
+<div class="col-xl-auto col-md-6 mb-4 card-title">
 <div class="card border-left-primary shadow h-100 py-2">
   <div class="card-body">
     <a href="RoastedPork.html">
@@ -645,7 +645,7 @@ async function Pork() {
   </div>
 </div>
 </div>
-<div class="col-xl-auto col-md-6 mb-4">
+<div class="col-xl-auto col-md-6 mb-4 card-title">
 <div class="card border-left-primary shadow h-100 py-2">
   <div class="card-body">
     <a href="KimchiSoup.html">
