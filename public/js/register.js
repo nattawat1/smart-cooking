@@ -53,6 +53,7 @@ onAuthStateChanged(auth, (user) => {
       window.location = "index.html";
     }, 2000);
     addingredients();
+    addtype();
   }
 });
 
@@ -80,5 +81,17 @@ async function addingredients() {
     Kaffir:"0",
     Spinach:"0",
     Sauce:"0",
+    Kimchi: "0"
+  });
+}
+
+async function addtype() {
+  var user = auth.currentUser;
+  var uid = user.uid;
+  const docRef = await setDoc(doc(db, uid, "type"), {
+    Fried: "true",
+    Curry: "true",
+    Baked: "true",
+    StirFry: "true"
   });
 }
