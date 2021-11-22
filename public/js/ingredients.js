@@ -82,8 +82,8 @@ PorkUpdatebtn.addEventListener("click", (event) => {
     Pork: "1",
   });
 });
-const CVermicelliUpdatebtn = document.getElementById("vermicelli");
-CVermicelliUpdatebtn.addEventListener("click", (event) => {
+const VermicelliUpdatebtn = document.getElementById("vermicelli");
+VermicelliUpdatebtn.addEventListener("click", (event) => {
   var user = auth.currentUser;
   var uid = user.uid;
   const Vermicelli = doc(db, uid, "Ingredients");
@@ -226,8 +226,8 @@ SpinachUpdatebtn.addEventListener("click", (event) => {
     Spinach: "1",
   });
 });
-const SSauceUpdatebtn = document.getElementById("sauce");
-SSauceUpdatebtn.addEventListener("click", (event) => {
+const SauceUpdatebtn = document.getElementById("sauce");
+SauceUpdatebtn.addEventListener("click", (event) => {
   var user = auth.currentUser;
   var uid = user.uid;
   const Sauce = doc(db, uid, "Ingredients");
@@ -240,8 +240,201 @@ const FishUpdatebtn = document.getElementById("fish");
 FishUpdatebtn.addEventListener("click", (event) => {
   var user = auth.currentUser;
   var uid = user.uid;
-  const Sauce = doc(db, uid, "Ingredients");
-  updateDoc(Sauce, {
+  const Fish = doc(db, uid, "Ingredients");
+  updateDoc(Fish, {
     Fish: "1",
+  });
+});
+
+
+
+const Beefdebtn = document.getElementById("debeef");
+Beefdebtn.addEventListener("click", (event) => {
+  var user = auth.currentUser;
+  var uid = user.uid;
+  const Beefde = doc(db, uid, "Ingredients");
+  updateDoc(Beefde, {
+    Beef: "0",
+  });
+});
+const Chickendebtn = document.getElementById("dechicken");
+Chickendebtn.addEventListener("click", (event) => {
+  var user = auth.currentUser;
+  var uid = user.uid;
+  const Chickende = doc(db, uid, "Ingredients");
+  updateDoc(Chickende, {
+    Chicken: "0",
+  });
+});
+const Porkdebtn = document.getElementById("depork");
+Porkdebtn.addEventListener("click", (event) => {
+  var user = auth.currentUser;
+  var uid = user.uid;
+  const Porkde = doc(db, uid, "Ingredients");
+  updateDoc(Porkde, {
+    Pork: "0",
+  });
+});
+const Vermicellidebtn = document.getElementById("devermicelli");
+Vermicellidebtn.addEventListener("click", (event) => {
+  var user = auth.currentUser;
+  var uid = user.uid;
+  const Vermicellide = doc(db, uid, "Ingredients");
+  updateDoc(Vermicellide, {
+    Vermicelli: "0",
+  });
+});
+const Noodledebtn = document.getElementById("denoodle");
+Noodledebtn.addEventListener("click", (event) => {
+  var user = auth.currentUser;
+  var uid = user.uid;
+  const Noodlede = doc(db, uid, "Ingredients");
+  updateDoc(Noodlede, {
+    Noodle: "0",
+  });
+});
+const Pastadebtn = document.getElementById("depasta");
+Pastadebtn.addEventListener("click", (event) => {
+  var user = auth.currentUser;
+  var uid = user.uid;
+  const Pastade = doc(db, uid, "Ingredients");
+  updateDoc(Pastade, {
+    Pasta: "0",
+  });
+});
+const Shrimpdebtn = document.getElementById("deshrimp");
+Shrimpdebtn.addEventListener("click", (event) => {
+  var user = auth.currentUser;
+  var uid = user.uid;
+  const Shrimpde = doc(db, uid, "Ingredients");
+  updateDoc(Shrimpde, {
+    Shrimp: "0",
+  });
+});
+const Eggdebtn = document.getElementById("deegg");
+Eggdebtn.addEventListener("click", (event) => {
+  var user = auth.currentUser;
+  var uid = user.uid;
+  const Eggde = doc(db, uid, "Ingredients");
+  updateDoc(Eggde, {
+    Egg: "0",
+  });
+});
+const Eggtofudebtn = document.getElementById("deeggtofu");
+Eggtofudebtn.addEventListener("click", (event) => {
+  var user = auth.currentUser;
+  var uid = user.uid;
+  const Eggtofude = doc(db, uid, "Ingredients");
+  updateDoc(Eggtofude, {
+    Eggtofu: "0",
+  });
+});
+const Tofudebtn = document.getElementById("detofu");
+Tofudebtn.addEventListener("click", (event) => {
+  var user = auth.currentUser;
+  var uid = user.uid;
+  const Tofude = doc(db, uid, "Ingredients");
+  updateDoc(Tofude, {
+    Tofu: "0",
+  });
+});
+const Cheesedebtn = document.getElementById("decheese");
+Cheesedebtn.addEventListener("click", (event) => {
+  var user = auth.currentUser;
+  var uid = user.uid;
+  const Cheesede = doc(db, uid, "Ingredients");
+  updateDoc(Cheesede, {
+    Cheese: "0",
+  });
+});
+const Crispyflourdebtn = document.getElementById("decrispyflour");
+Crispyflourdebtn.addEventListener("click", (event) => {
+  var user = auth.currentUser;
+  var uid = user.uid;
+  const Crispyflourde= doc(db, uid, "Ingredients");
+  updateDoc(Crispyflourde, {
+    Crispyflour: "0",
+  });
+});
+const Kimchidebtn = document.getElementById("dekimchi");
+Kimchidebtn.addEventListener("click", (event) => {
+  var user = auth.currentUser;
+  var uid = user.uid;
+  const Kimchide = doc(db, uid, "Ingredients");
+  updateDoc(Kimchide, {
+    Kimchi: "0",
+  });
+});
+const Potatodebtn = document.getElementById("depotato");
+Potatodebtn.addEventListener("click", (event) => {
+  var user = auth.currentUser;
+  var uid = user.uid;
+  const Potatode = doc(db, uid, "Ingredients");
+  updateDoc(Potatode, {
+    Potato: "0",
+  });
+});
+const Turkeyberrydebtn = document.getElementById("deturkeyberry");
+Turkeyberrydebtn.addEventListener("click", (event) => {
+  var user = auth.currentUser;
+  var uid = user.uid;
+  const Turkeyberryde = doc(db, uid, "Ingredients");
+  updateDoc(Turkeyberryde, {
+    Turkeyberry: "0",
+  });
+});
+const Moringglorydebtn = document.getElementById("demoringglory");
+Moringglorydebtn.addEventListener("click", (event) => {
+  var user = auth.currentUser;
+  var uid = user.uid;
+  const Moringgloryde = doc(db, uid, "Ingredients");
+  updateDoc(Moringgloryde, {
+    Moringglory: "0",
+  });
+});
+const Ivygourddebtn = document.getElementById("deivygourd");
+Ivygourddebtn.addEventListener("click", (event) => {
+  var user = auth.currentUser;
+  var uid = user.uid;
+  const Ivygourdde = doc(db, uid, "Ingredients");
+  updateDoc(Ivygourdde, {
+    Ivygourd: "0",
+  });
+});
+const Kaffirdebtn = document.getElementById("dekaffir");
+Kaffirdebtn.addEventListener("click", (event) => {
+  var user = auth.currentUser;
+  var uid = user.uid;
+  const Kaffirde = doc(db, uid, "Ingredients");
+  updateDoc(Kaffirde, {
+    Kaffir: "0",
+  });
+});
+const Spinachdebtn = document.getElementById("despinach");
+Spinachdebtn.addEventListener("click", (event) => {
+  var user = auth.currentUser;
+  var uid = user.uid;
+  const Spinachde = doc(db, uid, "Ingredients");
+  updateDoc(Spinachde, {
+    Spinach: "0",
+  });
+});
+const Saucedebtn = document.getElementById("desauce");
+Saucedebtn.addEventListener("click", (event) => {
+  var user = auth.currentUser;
+  var uid = user.uid;
+  const Saucede = doc(db, uid, "Ingredients");
+  updateDoc(Saucede, {
+    Sauce: "0",
+  });
+});
+
+const Fishdebtn = document.getElementById("defish");
+Fishdebtn.addEventListener("click", (event) => {
+  var user = auth.currentUser;
+  var uid = user.uid;
+  const Fishde = doc(db, uid, "Ingredients");
+  updateDoc(Fishde, {
+    Fish: "0",
   });
 });
