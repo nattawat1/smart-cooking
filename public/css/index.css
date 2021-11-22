@@ -1,0 +1,84 @@
+
+
+.WTF {
+    
+    height: 135px;
+
+    font-family: Merriweather;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 100px;
+    line-height: 151px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #333741;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#wrapper2 #content-wrapper #content {
+    flex: 1 0 auto;
+    background-color: #F5E6CA;
+}
+
+.img_food {
+    margin: -79px 0;
+    width: 400px;
+    height: 400px;
+
+}
+
+.title1 {
+    margin: 25px 0 0;
+    height: 135px;
+    top: 641px;
+
+    font-family: Merriweather;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 90px;
+    line-height: 113px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #333741;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25)
+}
+
+.title2 {
+    margin: -10px 0;
+    height: 52px;
+    top: 760px;
+    
+    font-family: Benguiat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 35px;
+    line-height: 33px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #333741;
+}
+
+.title3 {
+    height: 36px;
+    top: 800px;
+
+    font-family: Benguiat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #333741;
+    
+}
