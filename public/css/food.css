@@ -36,9 +36,7 @@
 }
 
 .name_food {
-    position: absolute;
-    width: 439px;
-    height: 106px;
+    width: 460px;
     left: 790px;
     top: 350px;
 
@@ -48,26 +46,14 @@
     font-size: 30px;
     line-height: 53px;
     text-align: center;
+    display: block;
+    justify-content: center;
+
+
 
     color: #000000;
 }
 
-.ingredients_namefood {
-    position: absolute;
-    width: 439px;
-    height: 106px;
-    left: 790px;
-    top: 400px;
-
-    font-family: Merriweather;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 30px;
-    line-height: 53px;
-    text-align: center;
-
-    color: #000000;
-}
 
 .title_food {
     margin: auto;
@@ -200,4 +186,14 @@
 
     background: #799351;
     border-radius: 25px;
+}
+
+.text_menu {
+    height: 500px;
+    text-align: center;
+    align-items: center;
+    float: right;
+    display: flex;
+
+
 }

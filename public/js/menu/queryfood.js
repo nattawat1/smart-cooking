@@ -53,7 +53,7 @@ async function Beef() {
         <a href="Beef-Curry.html">
           <img
             class="card-img-top"
-            src="img/menu-1/6.webp"
+            src="img/menu-2/Rectangle 159 (5).png"
             height="170px"
           />
           <div
@@ -83,7 +83,7 @@ async function Beef() {
       <a href="Beef-Curry.html">
         <img
           class="card-img-top"
-          src="img/menu-1/6.webp"
+          src="img/menu-2/Rectangle 159 (5).png"
           height="170px"
         />
         <div
@@ -125,7 +125,7 @@ async function Chicken() {
         <a href="Yakisoba.html">
           <img
             class="card-img-top"
-            src="img/menu-1/8.jpg"
+            src="img/menu-2/Rectangle 164.png"
             height="170px"
           />
           <div
@@ -155,7 +155,7 @@ async function Chicken() {
         <a href="ChickenBreasts.html">
           <img
             class="card-img-top"
-            src="img/menu-1/11.png"
+            src="img/menu-2/Rectangle 159 (9).png"
             height="170px"
           />
           <div
@@ -185,7 +185,7 @@ async function Chicken() {
             <a href="Yakisoba.html">
               <img
                 class="card-img-top"
-                src="img/menu-1/8.jpg"
+                src="img/menu-2/Rectangle 164.png"
                 height="170px"
               />
               <div
@@ -209,7 +209,7 @@ async function Chicken() {
         <a href="ChickenBreasts.html">
           <img
             class="card-img-top"
-            src="img/menu-1/11.png"
+            src="img/menu-2/Rectangle 159 (9).png"
             height="170px"
           />
           <div
@@ -249,7 +249,7 @@ async function Crispyflour() {
         <a href="Shrimp-Balls.html">
           <img
             class="card-img-top"
-            src="img/menu-1/2.jpg"
+            src="img/menu-2/Rectangle 159.png"
             height="170px"
           />
           <div
@@ -261,7 +261,7 @@ async function Crispyflour() {
             "
             ></div>
           <div class="h5 font-weight-bold text-gray-800">
-          Asian Fried Shrimp Balls
+          Asian fried Shrimp Balls With Spicy Dipping Sauce
           </div>
         </a>
       </div>
@@ -273,7 +273,7 @@ async function Crispyflour() {
       <a href="Fish-and-Chips.html">
         <img
           class="card-img-top"
-          src="img/menu-1/4.jpg""
+          src="img/menu-2/Rectangle 159 (3).png"
           height="170px"
         />
         <div
@@ -303,7 +303,7 @@ async function Crispyflour() {
         <a href="Fish-and-Chips.html">
           <img
             class="card-img-top"
-            src="img/menu-1/4.jpg""
+            src="img/menu-2/Rectangle 159 (3).png"
             height="170px"
           />
           <div
@@ -345,7 +345,7 @@ async function Moringglory() {
         <a href="BakedShrimp.html">
           <img
             class="card-img-top"
-            src="img/menu-1/10.jpg"
+            src="img/menu-2/Rectangle 159 (8).png"
             height="170px"
           />
           <div
@@ -375,7 +375,7 @@ async function Moringglory() {
         <a href="Glory-Salad.html">
           <img
             class="card-img-top"
-            src="img/menu-1/3.jpg"
+            src="img/menu-2/Rectangle 159 (2).png"
             height="170px"
           />
           <div
@@ -405,7 +405,7 @@ async function Moringglory() {
         <a href="Shrimp-Balls.html">
           <img
             class="card-img-top"
-            src="img/menu-1/2.jpg"
+            src="img/menu-2/Rectangle 159.png"
             height="170px"
           />
           <div
@@ -417,7 +417,7 @@ async function Moringglory() {
             "
             ></div>
           <div class="h5 font-weight-bold text-gray-800">
-          Asian Fried Shrimp Balls
+          Asian fried Shrimp Balls With Spicy Dipping Sauce
           </div>
         </a>
       </div>
@@ -429,7 +429,7 @@ async function Moringglory() {
       <a href="Glory-Salad.html">
         <img
           class="card-img-top"
-          src="img/menu-1/3.jpg"
+          src="img/menu-2/Rectangle 159 (2).png"
           height="170px"
         />
         <div
@@ -453,7 +453,7 @@ async function Moringglory() {
         <a href="BakedShrimp.html">
           <img
             class="card-img-top"
-            src="img/menu-1/10.jpg"
+            src="img/menu-2/Rectangle 159 (8).png"
             height="170px"
           />
           <div
@@ -495,7 +495,7 @@ async function Pork() {
         <a href="Clear-Soup.html">
           <img
             class="card-img-top"
-            src="img/menu-1/5.jpg"
+            src="img/menu-2/Rectangle 159 (4).png"
             height="170px"
           />
           <div
@@ -525,7 +525,7 @@ async function Pork() {
         <a href="Dan-Dan-Pappardelle.html">
           <img
             class="card-img-top"
-            src="img/menu-1/1.jpg"
+            src="img/menu-2/Rectangle 159 (1).png"
             height="170px"
           />
           <div
@@ -555,7 +555,7 @@ async function Pork() {
         <a href="Dan-Dan-Pappardelle.html">
           <img
             class="card-img-top"
-            src="img/menu-1/1.jpg"
+            src="img/menu-2/Rectangle 159 (1).png"
             height="170px"
           />
           <div
@@ -579,7 +579,7 @@ async function Pork() {
       <a href="Clear-Soup.html">
         <img
           class="card-img-top"
-          src="img/menu-1/5.jpg"
+          src="img/menu-2/Rectangle 159 (4).png"
           height="170px"
         />
         <div
@@ -603,7 +603,7 @@ async function Pork() {
     <a href="PorkStir.html">
       <img
         class="card-img-top"
-        src="img/menu-1/9.jpg"
+        src="img/menu-2/Rectangle 159 (7).png"
         height="170px"
       />
       <div
@@ -627,7 +627,7 @@ async function Pork() {
     <a href="RoastedPork.html">
       <img
         class="card-img-top"
-        src="img/menu-1/12.jpg"
+        src="img/menu-2/Rectangle 159 (10).png"
         height="170px"
       />
       <div
@@ -651,7 +651,7 @@ async function Pork() {
     <a href="KimchiSoup.html">
       <img
         class="card-img-top"
-        src="img/menu-1/7.jpeg"
+        src="img/menu-2/Rectangle 159 (6).png"
         height="170px"
       />
       <div
