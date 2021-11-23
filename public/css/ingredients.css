@@ -32,10 +32,31 @@
     font-family: Benguiat;
     font-style: normal;
     font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+
+    color: #000000;
+}
+
+.button2 {
+    font-family: Benguiat;
+    font-style: normal;
+    font-weight: bold;
     font-size: 20px;
     text-align: center;
 
     color: #000000;
 }
+
+.status {
+    margin: 25px;
+    font-family: Benguiat;
+    font-style: normal;
+    font-size: 15px;
+    text-align: center;
+
+    color: #828282;
+}
+
 
 
